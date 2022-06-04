@@ -1,0 +1,13 @@
+{
+  "name": "PREMIOS LFNA",
+  "short_name": "PREMIOS LFNA",
+  "start_url": "./?integ_ch=1",
+  "display": "standalone",
+  "icons": [{
+    "src": "../../premioslfna/img/logo.png",
+    "sizes": "512x512",
+    "type": "image/png"
+  }],
+  "theme_color": "#2196F3",
+  "background_color": "#8aaef5"
+}

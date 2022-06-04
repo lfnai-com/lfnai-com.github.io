@@ -1,0 +1,13 @@
+{
+  "name": "NUEVA LFNA",
+  "short_name": "NUEVA LFNA",
+  "start_url": "./?integ_ch=1",
+  "display": "standalone",
+  "icons": [{
+    "src": "../../nuevalfna/img/logo.png",
+    "sizes": "512x512",
+    "type": "image/png"
+  }],
+  "theme_color": "#2196F3",
+  "background_color": "#8aaef5"
+}

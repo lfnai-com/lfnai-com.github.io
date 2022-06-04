@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Unidad Educativa Centebad</title>
+    <link rel="shortcut icon" href="img/logo-centebad.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <!-- Custom styles for this template -->
+    <link href="navbar.css" rel="stylesheet">
+</head>
+
+<body>
+		
+<div id="el_contenido">			
+		  <nav class="sticky-top navbar t-0 navbar-expand-lg navbar-dark" style="background:linear-gradient(to right, hsla(220, 95%, 50%, 0.789), hsla(240, 45%, 52%, 0.789));" aria-label="Offcanvas navbar large">
+    <div class="container-fluid">
+      <a class="navbar-brand text-white" href="#">Unidad Educativa Centebad</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2">
+        <svg class="navbar-toggler-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#fff" class="bi bi-list" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+</svg>
+
+      </button>
+      <div class="offcanvas offcanvas-end text-white" style="background: linear-gradient(to right, hsla(220, 95%, 50%, 0.459), hsla(240, 45%, 52%, 0.664));" tabindex="-1" id="offcanvasNavbar2" aria-labelledby="offcanvasNavbar2Label">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbar2Label">Centebad</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav align-items-start justify-content-lg-end flex-grow-1 pe-3 fw-bold">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#acerca-de">Acerca de</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#docentes">Docentes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#opiniones">Opiniones</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#servicios">Servicios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" onclick="proyectos();">Proyectos</a>
+            </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+    <header>
+        <section class="textos-header">
+        			<img class="logo-centebad" src="img/logo-centebad.jpg" alt="logo-cemtebad"></img>
+            <h1>Unidad Educativa Centebad</h1>
+            <h2>La educación como medio del progreso</h2>
+            <div class="contentedor-estrellas"><img src="img/estrella.svg" alt=""><img src="img/estrella.svg" alt=""><img src="img/estrella.svg" alt=""><img src="img/estrella.svg" alt=""><img src="img/media-estrella.svg" alt=""></div>
+            <h2>(4.6)</h2>
+        </section>
+        <div class="wave" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
+                style="height: 100%; width: 100%;">
+                <path d="M0.00,49.98 C150.00,150.00 349.20,-50.00 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+                    style="stroke: none; fill: #fff;"></path>
+            </svg></div>
+    </header>
+    <main>
+        <section id="acerca-de" class="contenedor sobre-nosotros">
+            <h2 class="titulo">SU ÉXITO ES NUESTRO COMPROMISO</h2>
+            <div class="contenedor-sobre-nosotros">
+                <img src="img/ilustracion2.svg" alt="" class="imagen-about-us">
+                <div class="contenido-textos">
+                    <h3><span>1</span>Colegio Centebad</h3>
+                    <p>El Colegio Particular Centebad, es una solución para quienes requieren estudiar a distancia virtual, en estudios intensivos – acelerados, en estudios presenciales y semipresenciales en año regular.</p>
+                    <h3><span>2</span>Personal Docente</h3>
+                    <p>El personal docente que presta sus servicios en nuestra institución, son profesionales de calidad y amplia trayectoria académica lo que garantiza el aprendizaje de los educandos.</p>
+                </div>
+            </div>
+        </section>
+        <section id="docentes" class="portafolio">
+            <div class="contenedor">
+                <h2 class="titulo">PERSONAL DOCENTE</h2>
+                <div class="galeria-port">
+                    <div class="imagen-port">
+                        <img src="img/Carlos-Encalada.jpg" alt="">
+                        <div class="hover-galeria">
+                            <img src="img/icono1.png" alt="">
+                            <p>Carlos Encalada</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="img/Andrea-Moreno.jpg" alt="">
+                        <div class="hover-galeria">
+                            <img src="img/icono1.png" alt="">
+                            <p>Andrea Moreno</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="img/Jhon-Contreras.jpg" alt="">
+                        <div class="hover-galeria">
+                            <img src="img/icono1.png" alt="">
+                            <p>Jhon Contreras</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="img/Juan-Carlos-Paredes.jpg" alt="">
+                        <div class="hover-galeria">
+                            <img src="img/icono1.png" alt="">
+                            <p>Juan Carlos Paredes</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="img/Verónica-Ortega.jpg" alt="">
+                        <div class="hover-galeria">
+                            <img src="img/icono1.png" alt="">
+                            <p>Verónica Ortega</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="img/Stalin-Chimbo.jpg" alt="">
+                        <div class="hover-galeria">
+                            <img src="img/icono1.png" alt="">
+                            <p>Stalin Chimbo</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="img/Judith-Romero.jpg" alt="">
+                        <div class="hover-galeria">
+                            <img src="img/icono1.png" alt="">
+                            <p>Judith Romero</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="img/Mary-Carabajo.jpg" alt="">
+                        <div class="hover-galeria">
+                            <img src="img/icono1.png" alt="">
+                            <p>Mary Carabajo</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="opiniones" class="clientes contenedor">
+            <h2 class="titulo">Que dicen nuestros estudiantes</h2>
+            <div class="cards">
+                <div class="card">
+                    <img src="img/face1.jpg" alt="">
+                    <div class="contenido-texto-card">
+                        <h4>Solany Errera</h4>
+                        <p>Colegio Centebad la mejor Institución de calidad y amplia trayectoria académica</p>
+                        <p>⭐⭐⭐⭐ (4.3)</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/face2.jpg" alt="">
+                    <div class="contenido-texto-card">
+                        <h4>Jhostyn Cedeño</h4>
+                        <p>Ha sido un privilegio tener la educación de la Unidad Educativa Centebad</p>
+                        <p>⭐⭐⭐⭐ (4.5)</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="servicios" class="about-services">
+            <div class="contenedor">
+                <h2 class="titulo">Nuestros servicios</h2>
+                <div class="servicio-cont">
+                    <!-- <a href="#"> -->
+                    				<div class="servicio-ind">
+                      		  <img src="img/ilustracion1.svg" alt="">
+                   		     <h2>MODALIDAD PRESENCIAL</h2>
+                    		    <p>Intensivo 3×1  ( 8vo, 9no, 10mo y Bachillerato)</p>
+                    		</div>
+                    <!-- </a> -->
+                    <!-- <a href="#"> -->
+                    				<div class="servicio-ind">
+                      		  <img src="img/ilustracion4.svg" alt="">
+                       		 <h2>MODALIDAD SEMIPRESENCIAL</h2>
+                      		  <p>Asistencia solo los días sábados</p>
+                    		</div>
+                    <!-- </a> -->
+                    <!-- <a href="#"> -->
+                    		<div class="servicio-ind">
+                      		  <img src="img/ilustracion3.svg" alt="">
+                      		  <h2>MODALIDAD INTENSIVO</h2>
+                       		 <p>Lunes a Viernes</p>
+                    		</div>
+                    <!-- </a> -->
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer id="contacto">
+        <div class="contenedor-footer">
+            <div class="content-foo">
+                <h4>Teléfono</h4>
+                <p>(+593) 098-7654-321</p>
+            </div>
+            <div class="content-foo">
+                <h4>Email</h4>
+                <p>correoelectronico@gmail.com</p>
+            </div>
+            <div class="content-foo">
+                <h4>Ubicación</h4>
+                <p>12345-67890</p>
+            </div>
+        </div>
+        <h2 class="titulo-final">&copy; Diseño de estudiantes de informática 2BGU(A) | Jimmy Álvarez / Abar Ruiz / Jimmy Oñate / Leidy Cazu</h2>
+    </footer>
+</div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+<script>
+		function proyectos() {
+				document.getElementById("el_contenido").innerText = `<nav class="sticky-top navbar t-0 navbar-expand-lg navbar-dark" style="background:linear-gradient(to right, hsla(220, 95%, 50%, 0.789), hsla(240, 45%, 52%, 0.789));" aria-label="Offcanvas navbar large">
+    <div class="container-fluid">
+      <a class="navbar-brand text-white" href="#">Unidad Educativa Centebad - Proyectos</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2">
+        <svg class="navbar-toggler-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#fff" class="bi bi-list" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+</svg>
+
+      </button>
+      <div class="offcanvas offcanvas-end text-white" style="background: linear-gradient(to right, hsla(220, 95%, 50%, 0.459), hsla(240, 45%, 52%, 0.664));" tabindex="-1" id="offcanvasNavbar2" aria-labelledby="offcanvasNavbar2Label">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbar2Label">Centebad</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav align-items-start justify-content-lg-end flex-grow-1 pe-3 fw-bold">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarLgDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Todos los proyectos</a>
+              <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarLgDropdown">
+                <li><p class="dropdown-item">2022</p></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Informática</a></li>
+                <li><a class="dropdown-item" href="#">Mecánica</a></li>
+                <li><a class="dropdown-item" href="#">Cuencias</a></li>
+                <li><a class="dropdown-item" href="#">Otros</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+            </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+  
+  
+  
+  <div class="container">
+				<div class="column">
+						<div class="col-12 mb-4">
+								<div class="card shadow"><div id="img1" class="ratio ratio-16x9"> <img src="../cursobasico/cursobasico/img/hacerseguimiento.png" class="card-img-top" alt="..."></div>
+								<div class="card-body">
+										<h5 class="card-title">Presentación</h5>
+										<p class="card-text">Some quick example text to build on the card title and make up the bulk of the cards content.</p> 
+										<a class="btn btn-warning bg-gradient" onclick="img1();"><i class="bi bi-youtube"></i> Ver tutorial</a>
+										<a href="" class="btn btn-warning"><i class="bi bi-share-fill"></i> Compartir</a>
+										<p class="card-text mt-3"><small class="text-muted">Última actualización hace unos días</small></p>
+								</div>
+						</div>
+				</div>
+		</div>
+  
+  
+  <footer id="contacto">
+        <div class="contenedor-footer">
+            <div class="content-foo">
+                <h4>Teléfono</h4>
+                <p>(+593) 098-7654-321</p>
+            </div>
+            <div class="content-foo">
+                <h4>Email</h4>
+                <p>correoelectronico@gmail.com</p>
+            </div>
+            <div class="content-foo">
+                <h4>Ubicación</h4>
+                <p>12345-67890</p>
+            </div>
+        </div>
+        <h2 class="titulo-final">&copy; Diseño de estudiantes de informática 2BGU(A) | Jimmy Álvarez / Abar Ruiz / Jimmy Oñate / Leidy Cazu</h2>
+    </footer>`;
+		};
+</script>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+		 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="js/alert.js"></script>
+    <script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="be1e4c01-4ac2-43e4-9a94-7e874f032f99";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+
+</html>

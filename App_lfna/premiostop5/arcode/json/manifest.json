@@ -1,0 +1,13 @@
+{
+  "name": "PREMIOS TOP5",
+  "short_name": "PREMIOS TOP5",
+  "start_url": "./?integ_ch=1",
+  "display": "standalone",
+  "icons": [{
+    "src": "../../premiostop5/img/logo.png",
+    "sizes": "512x512",
+    "type": "image/png"
+  }],
+  "theme_color": "#2196F3",
+  "background_color": "#8aaef5"
+}

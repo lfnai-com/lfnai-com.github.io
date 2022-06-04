@@ -1,0 +1,13 @@
+{
+  "name": "Oficial LFNA",
+  "short_name": "Oficial LFNA",
+  "start_url": "./?integ_ch=1",
+  "display": "standalone",
+  "icons": [{
+    "src": "../../oficiallfna/img/logo.png",
+    "sizes": "512x512",
+    "type": "image/png"
+  }],
+  "theme_color": "#2196F3",
+  "background_color": "#8aaef5"
+}
